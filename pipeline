@@ -24,8 +24,8 @@ pipeline {
                 sh '''
                    mvn sonar:sonar \
                      -Dsonar.projectKey=project-netflix \
-                     -Dsonar.host.url=http://52.47.193.26:9000 \
-                     -Dsonar.login=54f6a0567ef5a12acda5eecee7ce51e0feb16bb1
+                     -Dsonar.host.url=http://3.34.345.12:9000 \
+                     -Dsonar.login=5a0567ef5a12acda5eec54f612acdaefeb16bb1
                 '''
             }
         }
